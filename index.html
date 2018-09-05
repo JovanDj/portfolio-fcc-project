@@ -12,19 +12,60 @@
 <body>
 
     <nav id="navbar" class="nav">
-        <ul>
-            <li><a href="#">Link 1</a></li>
-            <li><a href="#">Link 2</a></li>
-            <li><a href="#">Link 3</a></li>
+        <ul class="nav__list">
+            <li class="nav__list-item"><a class="nav__link" href="#">About</a></li>
+            <li class="nav__list-item"><a class="nav__link" href="#">Work</a></li>
+            <li class="nav__list-item"><a class="nav__link" href="#">Contact</a></li>
         </ul>
     </nav>
 
-    <section id="welcome-section">
-        <h1>Hi, I'm Jovan</h1>
+    <section id="welcome-section" class="welcome-section">
+        <h1 class="welcome-section__title">Hi, I'm Jovan</h1>
+        <p class="welcome-section__subtitle">a web developer</p>
     </section>
 
-    <section id="projects">
-        <a href="#" class="project-tile"></a>
+    <section id="projects" class="projects">
+        <h2 class="projects__title">These are my projects</h2>
+
+        <div class="projects__grid">
+            <a href="#" class="project-tile projects__link">
+                <img src="https://via.placeholder.com/250x180" alt="placeholder" class="projects__image">
+                <div class="projects__name">Name</div>
+
+            </a>
+
+            <a href="#" class="project-tile projects__link">
+                <img src="https://via.placeholder.com/250x180" alt="placeholder" class="projects__image">
+                <div class="projects__name">Name</div>
+            </a>
+
+            <a href="#" class="project-tile projects__link">
+                <img src="https://via.placeholder.com/250x180" alt="placeholder" class="projects__image">
+                <div class="projects__name">Name</div>
+
+            </a>
+
+            <a href="#" class="project-tile projects__link">
+                <img src="https://via.placeholder.com/250x180" alt="placeholder" class="projects__image">
+                <div class="projects__name">Name</div>
+
+            </a>
+
+            <a href="#" class="project-tile projects__link">
+                <img src="https://via.placeholder.com/250x180" alt="placeholder" class="projects__image">
+                <div class="projects__name">Name</div>
+
+            </a>
+
+            <a href="#" class="project-tile projects__link">
+                <img src="https://via.placeholder.com/250x180" alt="placeholder" class="projects__image">
+                <div class="projects__name">Name</div>
+
+            </a>
+        </div>
+
+        <a href="https://github.com/JovanDj" class="projects__show-all">Show all</a>
+
     </section>
 
 
