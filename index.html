@@ -6,6 +6,8 @@
     <title>Page Title</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
     <link rel="stylesheet" href="main.css">
 </head>
 
@@ -13,63 +15,83 @@
 
     <nav id="navbar" class="nav">
         <ul class="nav__list">
-            <li class="nav__list-item"><a class="nav__link" href="#">About</a></li>
-            <li class="nav__list-item"><a class="nav__link" href="#">Work</a></li>
-            <li class="nav__list-item"><a class="nav__link" href="#">Contact</a></li>
+            <li class="nav__list-item"><a class="nav__link" href="#contact">Contact</a></li>
+            <li class="nav__list-item"><a class="nav__link" href="#projects">Work</a></li>
+            <li class="nav__list-item"><a class="nav__link" href="#welcome-section">About</a></li>
+
         </ul>
     </nav>
 
-    <section id="welcome-section" class="welcome-section">
-        <h1 class="welcome-section__title">Hi, I'm Jovan</h1>
-        <p class="welcome-section__subtitle">a web developer</p>
-    </section>
+    <main>
 
-    <section id="projects" class="projects">
-        <h2 class="projects__title">These are my projects</h2>
+        <section id="welcome-section" class="welcome-section">
+            <h1 class="welcome-section__title">Hi, I'm Jovan</h1>
+            <p class="welcome-section__subtitle">a web developer</p>
+        </section>
 
-        <div class="projects__grid">
-            <a href="#" class="project-tile projects__link">
-                <img src="https://via.placeholder.com/250x180" alt="placeholder" class="projects__image">
-                <div class="projects__name">Name</div>
+        <section id="projects" class="projects">
+            <h2 class="projects__title">These are my projects</h2>
 
-            </a>
+            <div class="projects__grid">
+                <a href="#" class="project-tile projects__link">
+                    <img src="https://via.placeholder.com/250x180" alt="placeholder" class="projects__image">
+                    <div class="projects__name">Name</div>
 
-            <a href="#" class="project-tile projects__link">
-                <img src="https://via.placeholder.com/250x180" alt="placeholder" class="projects__image">
-                <div class="projects__name">Name</div>
-            </a>
+                </a>
 
-            <a href="#" class="project-tile projects__link">
-                <img src="https://via.placeholder.com/250x180" alt="placeholder" class="projects__image">
-                <div class="projects__name">Name</div>
+                <a href="#" class="project-tile projects__link">
+                    <img src="https://via.placeholder.com/250x180" alt="placeholder" class="projects__image">
+                    <div class="projects__name">Name</div>
+                </a>
 
-            </a>
+                <a href="#" class="project-tile projects__link">
+                    <img src="https://via.placeholder.com/250x180" alt="placeholder" class="projects__image">
+                    <div class="projects__name">Name</div>
 
-            <a href="#" class="project-tile projects__link">
-                <img src="https://via.placeholder.com/250x180" alt="placeholder" class="projects__image">
-                <div class="projects__name">Name</div>
+                </a>
 
-            </a>
+                <a href="#" class="project-tile projects__link">
+                    <img src="https://via.placeholder.com/250x180" alt="placeholder" class="projects__image">
+                    <div class="projects__name">Name</div>
 
-            <a href="#" class="project-tile projects__link">
-                <img src="https://via.placeholder.com/250x180" alt="placeholder" class="projects__image">
-                <div class="projects__name">Name</div>
+                </a>
 
-            </a>
+                <a href="#" class="project-tile projects__link">
+                    <img src="https://via.placeholder.com/250x180" alt="placeholder" class="projects__image">
+                    <div class="projects__name">Name</div>
 
-            <a href="#" class="project-tile projects__link">
-                <img src="https://via.placeholder.com/250x180" alt="placeholder" class="projects__image">
-                <div class="projects__name">Name</div>
+                </a>
 
-            </a>
-        </div>
+                <a href="#" class="project-tile projects__link">
+                    <img src="https://via.placeholder.com/250x180" alt="placeholder" class="projects__image">
+                    <div class="projects__name">Name</div>
 
-        <a href="https://github.com/JovanDj" class="projects__show-all">Show all</a>
+                </a>
+            </div>
 
-    </section>
+            <a href="https://github.com/JovanDj" class="projects__show-all" target="_blank">Show all</a>
+
+        </section>
+
+        <section id="contact" class="contact">
+            <h2 class="contact__title">Let's work together</h2>
+            <p class="contact__subtitle">How do you like your coffe?</p>
+
+            <ul class="contact__list">
+                <li class="contact__list-item"><a class="contact__link" href="https://github.com/JovanDj" id="profile-link"
+                        href="Github" target="_blank">Github</a></li>
+                <li class="contact__list-item"><a class="contact__link" href="mailto:example@example.com">Mail me</a></li>
+            </ul>
+        </section>
+
+    </main>
 
 
-    <a href="https://github.com/JovanDj" id="profile-link" href="Github" target="_blank">Github</a>
+    <footer class="footer">
+        &copy; Made for <a class="footer__link" target="_blank" href="https://www.freecodecamp.org/">freecodecamp</a>
+    </footer>
+
+
 
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>

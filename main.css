@@ -10,8 +10,10 @@ html {
 body {
   padding: 58px 0 0 0;
   margin: 0;
+  font-family: "Roboto", sans-serif;
 }
 
+/* Navigation */
 .nav {
   position: fixed;
   top: 0;
@@ -23,11 +25,13 @@ body {
   padding: 0;
   margin: 0;
   list-style: none;
-  clear: both;
+  width: 50%;
+  float: right;
 }
 
 .nav__list-item {
   float: right;
+  margin-left: 0;
   padding: 20px;
 }
 
@@ -37,6 +41,8 @@ body {
   color: #008080;
   font-size: 1.5em;
 }
+
+/* Welcome section */
 
 .welcome-section {
   min-height: 60vh;
@@ -54,6 +60,8 @@ body {
   margin: 0;
   color: rgb(0, 128, 0);
 }
+
+/* Projects */
 
 .projects {
   text-align: center;
@@ -78,6 +86,9 @@ body {
   border: 2px solid lightblue;
   font-size: 1.5em;
 }
+.projects__image {
+  border: 2px solid lightblue;
+}
 
 .projects__name {
   font-weight: 700;
@@ -95,7 +106,76 @@ body {
   font-size: 1.5em;
   font-weight: 700;
   border: 2px solid #90c695;
-  background-color: #e0ebe8;
+  background-color: rgb(224, 235, 232);
+  border-radius: 5px;
+  color: #008080;
+}
+.projects__show-all:hover {
+  background-color: rgb(228, 241, 254);
+}
+
+/* Contact */
+
+.contact {
+  text-align: center;
+  padding: 5% 0 5% 0;
+  background: #c8f7c5;
+}
+
+.contact__title {
+  font-size: 2em;
+}
+
+.contact__subtitle {
+  margin-bottom: 5%;
+}
+
+.contact__list {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  justify-content: space-evenly;
+}
+
+.contact__list-item {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  border: 2px solid #90c695;
+  font-weight: 700;
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  background: #e0ebe8;
+}
+
+.contact__list-item:hover {
+  background: #e4f1fe;
+  color: green;
+}
+
+.contact__link {
+  text-decoration: none;
+  color: #008080;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+
+.footer {
+  background: #22313f;
+  color: white;
+  padding: 20px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.footer__link {
+  cursor: pointer;
+  text-decoration: underline;
+  color: white;
 }
 
 @media screen and(max-width: 480px) {
